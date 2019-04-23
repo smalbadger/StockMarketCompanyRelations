@@ -1,10 +1,12 @@
 '''
-Author(s):          Sam Badger
+Author(s):  Sam Badger
 
-changelog:  03/28/2019  Initial results
-            04/02/2019  Expand time window. accumulate daily returns
-            04/05/2019  Use S&P500 as baseline. Calculate regression lines.
-            04/13/2019  Fix regression lines and calculate residuals
+changelog:  03/28/2019 - Initial results
+            04/02/2019 - Expand time window. accumulate daily returns
+            04/05/2019 - Use S&P500 as baseline. Calculate regression lines.
+            04/13/2019 - Fix regression lines and calculate residuals
+            04/23/2019 - Split time series regression before and after event date.
+                         Time independent regression for company comparison
 '''
 
 import csv
